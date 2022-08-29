@@ -17,6 +17,9 @@ pyenv_virtualenvs:
 pyenv_init_options: "{% if pyenv_env != 'user' %}--no-rehash{% endif %}"
 
 pyenv_update: false
+python_binary_map:
+  '3.9.4': python3
+  '3.10.6': python3
 
 # additional options for the build process, e.g "--enable-shared"
 pyenv_python_configure_opts: ""
